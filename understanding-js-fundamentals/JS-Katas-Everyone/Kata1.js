@@ -4,9 +4,9 @@
 // Commit 3: "refactored variable names for clarity"
 
 
-for (let i = 5; i <=50; i++) {
-   if (i % 10 === 0) {
-  console.log(i);
+for (let startpoint = 5; startpoint <=50; startpoint++) {
+   if (startpoint % 10 === 0) {
+  console.log(startpoint);
   
 }
 }

@@ -5,9 +5,8 @@
 // Commit 3: "refactored variable names for clarity"
 
 
-// This is a change I made to test pushing to github
-for (let i = 1; i <= 20; i++) {
-  if (i % 2 === 0) {
-    console.log(i);
-  }
+for (let i = 5; i <=50; i++) {
+  console.log(i);
+  
 }
+  

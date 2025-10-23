@@ -7,10 +7,14 @@
 // Kata 3: Multiplication table using nested loops
 // Commit 1: "scaffold nested loops"
 
-for (let i = 1; i <= 5; i++) {     
-  let row = "";                      
-  for (let j = 1; j <= 5; j++) {     
-    row += (i * j) + "\t";          
+// Kata 3: Multiplication table using nested loops
+// Commit 3: "refactored for readability and spacing"
+
+for (let rowNumber = 1; rowNumber <= 5; rowNumber++) {     
+  let rowOutput = "";                                      
+  for (let columnNumber = 1; columnNumber <= 5; columnNumber++) {  
+    let product = rowNumber * columnNumber;                
+    rowOutput += product + "\t";                           
   }
-  console.log(row); 
+  console.log(rowOutput);                                  
 }

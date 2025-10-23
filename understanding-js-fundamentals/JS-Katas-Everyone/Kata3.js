@@ -18,3 +18,4 @@ for (let rowNumber = 1; rowNumber <= 5; rowNumber++) {
   }
   console.log(rowOutput);                                  
 }
+
